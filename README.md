@@ -18,7 +18,11 @@ This master thesis is split into different task:
 + Eye tracker experiment
 + Analysis and perturbation analysis
 
-## Requisite Libraries
+## Dataset
+
+This thesis uses the KDEF Database (The Karolinska Directed Emotional Faces; Lundqvist, Flykt, & Öhman, 1998). The stimuli can be used for non-commercial scientific research purposes. It can be downloaded at (http://kdef.se/).
+
+## Requisite Libraries 
 
 In order to run our experiments, you will need the following software:
 + Python 3.5 
