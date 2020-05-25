@@ -17,6 +17,8 @@ A complete version of the code with pre-installed packages can be found on [Goog
 [Google Colaboratory]:https://colab.research.google.com/drive/1uFKK00fDlxtTfBLNjLTpDl37Vs5HgGwo?usp=sharing
 
 
+!! Right now only the Google Colab Version is available!!
+
 ## About the repo (under construction)
 
 This repo contain the different notebooks to run & reproduce the results from the master thesis:
