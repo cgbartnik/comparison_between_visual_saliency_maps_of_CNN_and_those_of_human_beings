@@ -10,13 +10,23 @@ This repository contains the python code for training the CNN in this master the
 This master thesis uses facial expression recognition of the six basic emotions as ground to compare the salient regions used by a CNN and 28 human subjects in a head to head comparison on the same set of facial expression images. Because no state of the art CNN for facial expression recognition was suitable for the targeted comparison, a VGG Face CNN originally trained for face recognition was fine tuned by transfer learning for facial expression recognition. The regions that were most relevant for the network's prediction were visualised using the propagation based explanation method LRP. The salient regions on which the human subjects focused their visual attention were recorded by eye tracking and visualized in heatmaps. The comparison of both visual saliency maps was done by perturbation analysis. It was determined that the CNN and the human subjects focused on different salient regions when classifying the facial expressions. An additional visual inspection of each class of expression suggests that some classes contribute more than others to the overall difference.
 
 
-## About the repo
 
-This master thesis is split into different task:
+## Google Colab version
+A complete version of the code with pre-installed packages can be found on [Google Colaboratory].
 
-+ fine tuning of pre-trained VGG Face (Keras) 
-+ Eye tracker experiment
-+ Analysis and perturbation analysis
+[Google Colaboratory]:https://colab.research.google.com/drive/1uFKK00fDlxtTfBLNjLTpDl37Vs5HgGwo?usp=sharing
+
+
+## About the repo (under construction)
+
+This repo contain the different notebooks to run & reproduce the results from the master thesis:
+
++ Preprocessing & sampling of the actors from the KDEF database for the testset
++ Fine tuning of the pre-trained VGG Face for facial expression recognition
++ Evaluation of the training process and the choosen model
++ LRP heatmaps to visualize the networks decision
++ Eye tracker data analysis and creation of the attention heatmaps
++ Comparison using a perturbation analysis approach
 
 ## Dataset
 
@@ -37,9 +47,3 @@ In order to run our experiments, you will need the following software:
 [opencv-python]:https://github.com/skvark/opencv-python
 [innvestigate]:https://github.com/albermax/innvestigate
 [OpenCV]:http://opencv.org/
-
-
-## Google Colab version
-A complete version of the code with pre-installed packages can be found on [Google Colaboratory].
-
-[Google Colaboratory]:https://colab.research.google.com/drive/1uFKK00fDlxtTfBLNjLTpDl37Vs5HgGwo?usp=sharing
