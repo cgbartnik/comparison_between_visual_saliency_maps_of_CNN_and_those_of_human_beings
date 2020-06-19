@@ -13,9 +13,7 @@ This master thesis uses facial expression recognition of the six basic emotions 
 
 ## Google Colab version
 A complete version of the code with pre-installed packages can be found on [Google Colaboratory].
-
-[Google Colaboratory]:https://colab.research.google.com/drive/1uFKK00fDlxtTfBLNjLTpDl37Vs5HgGwo?usp=sharing
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uFKK00fDlxtTfBLNjLTpDl37Vs5HgGwo?usp=sharing)
 
 !! Right now only the Google Colab Version is available!!
 
